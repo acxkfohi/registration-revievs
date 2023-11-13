@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     background: linear-gradient(180deg, rgba(1,1,12,1) 25%, rgba(0,0,75,1) 59%, rgba(75,75,158,1) 89%, rgba(255,255,255,1) 100%);
+    flex-wrap: wrap;
 }
 .contanier {
     max-width: 1280px;
@@ -39,100 +40,38 @@ body {
     font-size: 35px;
 }
 
-.osnovaotziv{
-    width: 1280px;
-    height: auto;
-    margin-left: 65px;
-    margin-top: 80px;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+.main_title{
+    font-size: 35px;
+    font-family: "Times New Roman";
+    margin-left: 680px;
+    color:white;
     
 }
-.otziv{
-    width: 500px;
-    height: auto;
-    border: 2px solid rgb(9, 35, 184);
-    background-color: rgb(190, 180, 255);
-    box-shadow: 1px 1px 3px 3px rgb(12, 3, 255);
-    margin-top: 45px;
-    margin-left: 100px;
-}
-.photka{
-    width: 480px ;
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.imia{
-   font-size: 16px;
-   font-family: 'Times New Roman', Times, serif;
-   color: rgb(0, 66, 189);
-}
-
-.osnovaotziv2{
-    width: 1280px;
-    height: auto;
-    margin-left: 65px;
-    margin-top: 80px;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+.main_subtitle{
+    font-size:25px;
     
+    line-height: 50px;
+    color:white;
+    text-align: center;
 }
 
-.osnovaotziv3{
-    width: 1280px;
-    height: auto;
-    margin-left: 65px;
-    margin-top: 90px;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    
+
+
+.reg{
+border: 2px solid orange;
+width: 700px;
+height: 600px;
+margin-left: 400px;
+margin-top:30px ;
+background-color: rgb(0, 0, 59);
 }
 
-.osnovaotziv4{
-    width: 1280px;
-    height: auto;
-    margin-left: 65px;
-    margin-top: 90px;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    
-}
 
-.ostavit{
-    width: 510px;
-    height: 200px;
-    border: 3px solid rgb(7, 0, 112);
-    background: linear-gradient(180deg, rgba(0, 0, 107, 0.71) 45%, rgba(42, 42, 175, 0.616) 59% );
-    margin-top: 20px;
-    margin-left: 180px;
-    border-radius: 10px;
-   
-    
 
-}
-.pole{
-    margin-bottom: 10px;
-    margin-left: 26px;
-    margin-top:15px ;
-    border: 3px solid rgb(0, 5, 160);
-    border-radius: 15px;
-}
-.knopka{
-    margin-left: 43px; 
-    border-radius: 15px; 
-    width: 150px;
-    background-color: rgb(73, 122, 255);
-    height: 30px;
-    font-family: Georgia;
-   font-size: 15px;
-}
+
+
+
+
 
 .footer_main{
     border: 2px solid black;
@@ -170,7 +109,7 @@ body {
 }
 
 footer{
-    margin-top: 20px;
+    margin-top: 70px;
 }
 
 .footer_logo{
@@ -182,3 +121,43 @@ footer{
     width: 290px;
     
 }
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #010b78;
+    border: 1px solid #0f018b;
+    border-radius: 5px;
+    margin-top: 40px;
+    color:white;
+    
+  }
+  
+  .container h2 {
+    text-align: center;
+  }
+  
+  .container input[type="text"], .container input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #4e41fd;
+    box-sizing: border-box;
+  }
+  
+  .container input[type="submit"] {
+    width: 100%;
+    background-color: #0600b9;
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointe;
+  }
+  
+  .container input[type="submit"]:hover {
+    background-color: #534bf4;
+  }
